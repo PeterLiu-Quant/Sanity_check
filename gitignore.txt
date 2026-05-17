@@ -1,0 +1,80 @@
+# =============================================================================
+# Data (large files; SLIM is under BPS license, do NOT commit)
+# =============================================================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Outputs
+output/tables/*
+!output/tables/.gitkeep
+output/figures/*
+!output/figures/.gitkeep
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+.env
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing / linting caches
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# =============================================================================
+# IDE / OS
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Large / generated artifacts
+# =============================================================================
+*.parquet
+*.feather
+*.dta
+*.csv.gz
+*.zip
+*.tar.gz
+
+# Allow specific small reference CSVs if needed (uncomment when needed)
+# !data/reference/*.csv
+
+# =============================================================================
+# Secrets — never commit
+# =============================================================================
+.env
+.envrc
+*.key
+*.pem
+secrets.yml
+credentials.json
