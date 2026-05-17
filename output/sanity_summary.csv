@@ -1,0 +1,5 @@
+test,result,note
+T1,True,xs IQR mean = 0.1402
+T2,True,"FM beta = +0.002185, t = +2.141"
+T3,True,"LS mean = +25.75 bps, Sharpe = 1.756"
+T4,False,1d -> 5d cum: +20.2 -> +51.9

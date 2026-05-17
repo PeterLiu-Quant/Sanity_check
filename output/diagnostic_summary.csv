@@ -1,0 +1,4 @@
+test,result,detail
+D1,True,"FF6 alpha = +26.82 bps, t = +2.524"
+D2,False,"Boom t = +1.37, Quiet t = +2.61"
+D3,True,"Full t = +2.26, No-meme t = +1.84"
