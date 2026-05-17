@@ -58,8 +58,7 @@ is annotated and pre-registered.
 ```
 .
 ├── sanity_check.py         # Cells 0–9: data loading, signal construction,
-│                              FM regression, decile portfolio sort, horizon test
-├── cell10_diagnostics.py   # Cell 10: FF6 alpha, subsample split,
+│                              FM regression, decile portfolio sort, horizon test, FF6 alpha, subsample split,
 │                              meme-stock exclusion robustness
 ├── requirements.txt        # Python package pins
 ├── README.md               # This file
@@ -252,8 +251,8 @@ of their construction methodology. All errors are my own.
 
 ## Contact
 
-**Zijun Liu (刘子验)**
-Master of Finance, Australian National University
+**Zijun Liu (刘子骏)**
+Master of Financial Management, Australian National University
 GitHub: [@PeterLiu-Quant](https://github.com/PeterLiu-Quant)
 
 Comments and feedback are very welcome; please open an issue or reach out
